@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textview_ngaythang1"
             android:text="TUE 22"
-            android:textSize="24dp"
+            android:textSize="20sp"
             android:textStyle="normal"
             android:gravity="center"/>
         <Space
@@ -23,8 +23,8 @@
 
         <ImageView
             android:id="@+id/image_hinh"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:visibility="visible" />
         <Space
             android:layout_width="10dp"
@@ -61,6 +61,7 @@
             android:text="trang thai"
             android:id="@+id/textview_trangthai1"
             android:textSize="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:visibility="gone"/>
     </LinearLayout>
 </LinearLayout>
